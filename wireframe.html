@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Football Quiz - Wireframe</title>
+    <link rel="stylesheet" href="wireframe.css" />
+  </head>
+  <body>
+    <header>
+      <h1>THE FOOTBALL (SOCCER) QUIZ</h1>
+      <p>Check your knowledge in the football (soccer) world</p>
+      <button>START</button>
+    </header>
+
+    <main>
+      <section class="question-form">
+        <p>Question 1</p>
+        <form>
+          <fieldset>
+            <label for="option">
+              <input
+                type="radio"
+                name="answer"
+                id="option"
+                required
+                value="option-1"
+              />
+              Option 1
+            </label>
+
+            <label for="option">
+              <input
+                type="radio"
+                name="answer"
+                id="option"
+                required
+                value="option-2"
+              />
+              Option 2
+            </label>
+
+            <label for="option">
+              <input
+                type="radio"
+                name="answer"
+                id="option"
+                required
+                value="option-3"
+              />
+              Option 3
+            </label>
+
+            <label for="option">
+              <input
+                type="radio"
+                name="answer"
+                id="option"
+                required
+                value="option-4"
+              />
+              Option 4
+            </label>
+            <div>
+              <button>Submit</button>
+            </div>
+          </fieldset>
+        </form>
+      </section>
+
+      <h3 class="score">Score <span>0</span></h3>
+
+      <section class="result">
+        <div>
+          <p>Your option is correct</p>
+          <button>NEXT</button>
+        </div>
+        <div>
+          <p>Your option is wrong, the correct option is <span> 2</span></p>
+          <button>NEXT</button>
+        </div>
+      </section>
+
+      <section class="final-score">
+        <p>Your score is <span>3</span> / <span>5</span></p>
+        <button>RESTART</button>
+      </section>
+    </main>
+  </body>
+</html>

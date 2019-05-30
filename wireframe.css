@@ -1,0 +1,40 @@
+header {
+  text-align: center;
+  margin: 50px;
+}
+
+.question-form {
+  margin: 10px auto;
+  width: 80%;
+  text-align: center;
+}
+
+.question-form button {
+  margin-top: 10px;
+}
+
+.score {
+  text-align: right;
+  margin: 25px auto;
+  width: 80%;
+}
+
+.result {
+  text-align: center;
+  margin: 25px auto;
+  width: 60%;
+}
+
+.result div {
+  border: 1px black solid;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.final-score {
+  text-align: center;
+  border: 1px black solid;
+  margin: 25px auto;
+  width: 80%;
+  padding-bottom: 10px;
+}
